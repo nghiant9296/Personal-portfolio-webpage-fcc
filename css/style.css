@@ -1,0 +1,29 @@
+
+#about {
+  padding-top: 50px;
+  margin-top: 60px;
+  height: 100px;
+  display: inline;
+}
+#info{
+	margin-top: 30px;
+}
+#picture{
+	margin-top: 40px;
+}
+
+#button {
+  margin-top: 5px;
+}
+
+#info > h1 {
+  color: blue;
+}
+
+#works {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#port {
+  background-color: #FBFDCA;
+}
