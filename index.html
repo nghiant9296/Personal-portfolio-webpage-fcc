@@ -7,39 +7,47 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Heebo:700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
-
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Heebo:700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:700|Patua+One|Roboto+Condensed:700" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="css\style.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
 </head>
 <body id="main" data-spy="scroll" data-target=".navbar" data-offset="40">
 <header>
-  	<nav class=" navbar navbar-inverse navbar-fixed-top">
-  	 <div class="container">
-     <div class="row">
-  	 	<div class="navbar-header">
-  	 	<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#Navbar">	
-  	 		<span class="icon-bar"></span>
-        	<span class="icon-bar"></span>
-        	<span class="icon-bar"></span> 	
-  	 	</button>
-       <a class="nav navbar-brand" href="#main">NghiaNT</a>
-  	 	</div>
-  	 	 <div class="collapse navbar-collapse" id="Navbar">
-  	 	<ul class="nav navbar-nav navbar-right">
-      <li class="actived"><a href="#">Home</a></li>
-  	 		<li><a href="#">About</a></li>
-  	 		<li><a href="#">Portfolio</a></li>
-  	 		<li><a href="#">Contact</a></li>
-  	 	</ul>
-  	 </div>
-     </div>
-     </div>
-  	 </nav>
-     </header>
-     <div class="row" style="background-color: #cccccc;">
+    <nav class="nav navbar navbar-fixed-top navbar-inverse">
+      <div class="container">
+        <div class="row">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="nav navbar-brand" href="#main">NghiaNT</a>
+          </div>
+          <div class="collapse navbar-collapse" id="navbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li class="actived"><a href="#">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#port">Portfolio</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav><!--end nav-->
+  </header><!--end header-->
      <div id="about" class="container-fluid">
+     <div class="row" style="background-color: #cccccc;">
+     
       <div class="text-center" style="margin-top:30px;background-color: lightblue;">
       <h1>About</h1>
+      <hr class="star-primary">
     </div>
        
          <div class="col-md-6 text-center">
@@ -47,30 +55,90 @@
          </div>
        <div class="container-fluid">
       <div id="info" class="col-md-4 text-left ">
-           <p>Hello there, I am Nghia, a self-taught web developer. I have graduated in university of technology and education HCM City. I think of code as an art. I write code on the bleeding edge that's tuned for performance, well structured and responsive in nature. I have an experience of creating mobile-first websites, extensive knowledge of cross-browser/multi-device support. Up-to-date familiarity with emerging W3C standards and understanding of Web Accessibility. 
+           <p class="ex1">Hello there, I am Nghia, a self-taught web developer. I have graduated in university of technology and education HCM City. I think of code as an art. I write code on the bleeding edge that's tuned for performance, well structured and responsive in nature. I have an experience of creating mobile-first websites, extensive knowledge of cross-browser/multi-device support. Up-to-date familiarity with emerging W3C standards and understanding of Web Accessibility. 
            My skills include HTML, CSS, Javascript, jQuery, Bootstrap, Scss, Adobe Photoshop and GitHub. 
            Found this exciting </p>
        </div>
       
          </div>
          </div>
-     <div id="button" class="container-fluid">
+
      <div class="row">
-      <div class="col-md-6 text-center">
+      <div class="col-md-8 text-center">
 
        <a href="https://www.facebook.com/NguyenTrongNghia92" class=" btn btn-info" role="button" target="blank">Facebook </a>
         <a href="https://twitter.com/TrongNghia92" class="btn btn-success" role="button" target="blank">Twitter</a>
         <a href="https://www.linkedin.com/in/trong-nghia-nguyen-36885475/" class="btn btn-warning " role="button" target="blank">Linkedin</a>
             </div>
           </div>
-        </div>
+       
        </div>
-      <hr>
+        
   <div id="port" class="container-fluid">
     <div class="text-center">
       <h2>Portfolio</h2>
+    <hr class="star-primary">
     </div>
+
+    <div class="row">
+        <div class="col-xs-6">
+              
+          <a href="https://codepen.io/nghiant/full/awJzrQ/" target="_blank">
+            <img class="img-responsive" src="D:\HTML&CSS&JAVASCRIPT\Personal-portfolio-webpage-fcc\image\aaa.png" alt="" id="portfolio1">
+          </a>
+              </div>
+         <div class="col-xs-4">     
+          <h3>
+            Basically the shit-posting of Tribute Pages</h3>
+            <p class="ex2">Through the Free Code Camp curriculum, I was given the challenge of creating a Tribute Page that had the following User Stories:</p>
+            <ul>
+            <li>I can view a tribute page with an image and text.</li>
+            <li>I can click on a link that will take me to an external website with further information on the topic.</li>
+            </ul>
+            <p class="ex3">With that information in mind, I decided to have a little fun and show case my ridiculous sense of humor, all while completing the challenge, as well.</p>
+            <a class="btn btn-primary" href="https://codepen.io/nghiant/full/awJzrQ/" target="_blank">View Project <span class="glyphicon glyphicon-chevron-right"></span></a>
+          
+    </div>
+    </div>
+    </div>
+    <hr class="star-primary">
+    <div id="contact" class="container-fluid">
+    <h1 class="text-center">Contact</h1>
+    <p class="text-center"><em>Leave me your messages</em></p>
     <hr/>
-   
-</body>
+
+    <div class="row">
+      <div class="col-xs-6">
+      <p>Contact information:</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span>HoChiMinh city, Vietnam</p>
+      <p><span class="glyphicon glyphicon-phone"></span>Phone: xx-xxx-xxx</p>
+      <p><span class="glyphicon glyphicon-envelope"></span>Email: trongnghia9296@gmail.com</p>
+    </div>
+    <div class="col-md-6">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Messages" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-md-12 form-group">
+          <button id="messen" class="btn pull-right btn-primary" type="submit">Send</button>
+        </div>
+      </div>      
+    </div>
+    </div>
+    </div>   
+  <footer>    
+    <div id="theend" class="container-fluid">  
+      <p class="text-center">Written and coded by <a href="https://www.freecodecamp.com/nghiant9296" target="_blank" style="color:blue; font-style: italic;">Nguyen Trong Nghia</a>.</p>
+      <ul class="nav nav-tabs" role="tablist">
+        <li class="active" ><a href="#main">Back to top</a></li>
+      </ul>
+    </div>   
+    </footer> 
+  </body>
 </html>
